@@ -4,3 +4,5 @@
 
   tasks:
     - include_tasks: tasks/autoupdate.yml
+    
+    - include_tasks: tasks/firewall.yml

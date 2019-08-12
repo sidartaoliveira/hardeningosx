@@ -1,0 +1,8 @@
+---
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.alf
+    key: globalstate
+    type: int 
+    value: 1
+    state: present

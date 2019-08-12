@@ -1,0 +1,6 @@
+---
+- shell: /usr/bin/dscl . list /Users | egrep -v '^_|root|nobody|daemon'
+  register: usr
+
+- command: fdesetup enable --user "{{usr.stdout}}"
+  when: usr.stdout != ""

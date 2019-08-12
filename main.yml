@@ -6,3 +6,5 @@
     - include_tasks: tasks/autoupdate.yml
     
     - include_tasks: tasks/firewall.yml
+    
+    - include_tasks: tasks/filevault.yml

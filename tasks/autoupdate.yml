@@ -1,0 +1,56 @@
+---
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.commerce 
+    key: AutoUpdate
+    type: boolean    
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.commerce
+    key: AutoUpdateRestartRequired
+    type: boolean
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.SoftwareUpdate
+    key: AutomaticallyInstallMacOSUpdates
+    type: bool 
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.SoftwareUpdate
+    key: AutomaticCheckEnabled
+    type: bool
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.SoftwareUpdate
+    key: AutomaticDownload
+    type: bool
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.SoftwareUpdate
+    key: ConfigDataInstall
+    type: bool
+    value: true
+    state: present
+
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.SoftwareUpdate
+    key: CriticalUpdateInstall
+    type: bool
+    value: true
+    state: present

@@ -3,6 +3,8 @@
   connection: local
 
   tasks:
+    - include_tasks: tasks/base.yml
+
     - include_tasks: tasks/autoupdate.yml
     
     - include_tasks: tasks/firewall.yml

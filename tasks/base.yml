@@ -1,0 +1,8 @@
+---
+- osx_defaults:
+    host: currentHost
+    domain: /Library/Preferences/com.apple.loginwindow
+    key: GuestEnabled
+    type: boolean    
+    value: false
+    state: present
